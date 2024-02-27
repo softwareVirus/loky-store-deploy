@@ -1,8 +1,8 @@
 <template lang="pug">
 #product-pictures-background
-  img.product-bg-image(:src="'@/assets/Untitled.png'")
-  img.product-bg-image(:src="'@/assets/Untitled.png'")
-  img.product-bg-image(:src="'@/assets/Untitled.png'")
+  img.product-bg-image(:src="'/src/assets/Untitled.png'")
+  img.product-bg-image(:src="'/src/assets/Untitled.png'")
+  img.product-bg-image(:src="'/src/assets/Untitled.png'")
 OrderCard(:product="data")
 </template>
 <script>

@@ -7,7 +7,7 @@
         p.product-user {{ productItem.name }}
     .product-info-box-vertical
         h3(style="margin: 0") Image: 
-        img( v-for="(images) in productItem.imageSrc" :src="'@/assets/Untitled.png'" :alt="images.alt" style="width: 45%; max-width: 8rem;")
+        img( v-for="(images) in productItem.imageSrc" :src="'/src/assets/Untitled.png'" :alt="images.alt" style="width: 45%; max-width: 8rem;")
     .product-info-box        
         h3 Dimensions: 
         p.product-user {{ productItem.dimensions.join(', ') }}

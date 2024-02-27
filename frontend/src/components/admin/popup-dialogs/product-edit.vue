@@ -119,11 +119,11 @@ export default {
           detail: detail.value,
           imageSrc: [
             {
-              image: '@/assets/Untitled.png',
+              image: '/src/assets/Untitled.png',
               alt: 'Image 1'
             },
             {
-              image: '@/assets/Untitled.png',
+              image: '/src/assets/Untitled.png',
               alt: 'Image 1'
             }
           ]
@@ -136,11 +136,11 @@ export default {
           dimensions: selectedDimensions.value,
           imageSrc: [
             {
-              image: '@/assets/Untitled.png',
+              image: '/src/assets/Untitled.png',
               alt: 'Image 1'
             },
             {
-              image: '@/assets/Untitled.png',
+              image: '/src/assets/Untitled.png',
               alt: 'Image 1'
             }
           ],
