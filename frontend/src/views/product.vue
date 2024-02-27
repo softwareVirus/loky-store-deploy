@@ -1,8 +1,8 @@
 <template lang="pug">
 #product-pictures-background
-  img.product-bg-image(:src="'https://lh3.google.com/u/0/d/16VkENUABXo-XXBRQrg3AkYBE1PGwYwhg=w1879-h931-iv1'")
-  img.product-bg-image(:src="'https://lh3.google.com/u/0/d/16VkENUABXo-XXBRQrg3AkYBE1PGwYwhg=w1879-h931-iv1'")
-  img.product-bg-image(:src="'https://lh3.google.com/u/0/d/16VkENUABXo-XXBRQrg3AkYBE1PGwYwhg=w1879-h931-iv1'")
+  img.product-bg-image(:src="'@/assets/Untitled.png'")
+  img.product-bg-image(:src="'@/assets/Untitled.png'")
+  img.product-bg-image(:src="'@/assets/Untitled.png'")
 OrderCard(:product="data")
 </template>
 <script>
