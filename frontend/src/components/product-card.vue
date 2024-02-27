@@ -5,7 +5,7 @@ div(:class="(isOrder ? 'product-shopping-card' : 'product-card') + ' ' + (!produ
       .product-buttons 
         IconButton(:isFilled="isFilled" @updateFavorite="handleFavoriteProduct" :useEmit="true")
         IconButton(:isCloseButton="true" :handleClose="deleteValue")
-    img.product-image(:src="'@/assets/Untitled.png'.replace('@','/src')" v-if="!isOrder")
+    img.product-image(:src="'https://lh3.google.com/u/0/d/16VkENUABXo-XXBRQrg3AkYBE1PGwYwhg=w1879-h931-iv1'.replace('@','/src')" v-if="!isOrder")
   .product-card-info
     p.product-title {{product.name}}
     p.product-cost(v-if="!isOrder") {{product.price}} USD
@@ -146,7 +146,7 @@ export default {
 
 .product-shopping-header {
   height: 382px !important;
-  background-image: url('/src/assets/Untitled.png');
+  background-image: url('https://lh3.google.com/u/0/d/16VkENUABXo-XXBRQrg3AkYBE1PGwYwhg=w1879-h931-iv1');
   background-size: 350px !important;
   width: 350px !important;
 }

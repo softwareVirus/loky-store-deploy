@@ -2,7 +2,7 @@ import { createStore } from 'vuex'
 import axios from 'axios'
 axios.defaults.withCredentials = true
 console.log(import.meta.env, 'here')
-axios.defaults.baseURL = 'http://localhost:3000'
+axios.defaults.baseURL = 'http://13.49.244.246'
 axios.defaults.headers = {
   Accept: 'application/json',
   'Content-Type': 'application/json',

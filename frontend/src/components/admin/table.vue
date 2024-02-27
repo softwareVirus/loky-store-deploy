@@ -11,7 +11,7 @@ div.table-container(v-else)
         td.table-row(v-for="(column,index) in Object.keys(item).filter(x => x.indexOf('_id') !== 0 || (x.indexOf('_id') == 0 && x[3] != undefined && x[3].toLowerCase() == x[3]))" :key="'12x'+item._id")
           //-.item-container(v-if="")
           .image-container(v-if="column === 'imageSrc'")
-            img( v-for="(images) in item[column]" :src="images.image.replace('@','/src')" :alt="images.alt" style="width: 45%; max-width: 8rem;")
+            img( v-for="(images) in item[column]" :src="'https://lh3.google.com/u/0/d/16VkENUABXo-XXBRQrg3AkYBE1PGwYwhg=w1879-h931-iv1'" :alt="images.alt" style="width: 45%; max-width: 8rem;")
           template(v-else-if="Array.isArray(item[column]) && item[column].find(x => typeof x === 'string')")
             p(v-for="(element) in item[column]") {{ element }}
           template(v-else) 
